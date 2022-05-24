@@ -11,7 +11,7 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Jumbotron />
-			<div>
+			<div display="inline">
 				<Card />
 				<Card />
 				<Card />
