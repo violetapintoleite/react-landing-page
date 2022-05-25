@@ -10,8 +10,8 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Jumbotron />
-			<div class="row">
-				<div class="col-sm-3">
+			<div className="row">
+				<div className="col-sm-3">
 					<Card
 						img="https://picsum.photos/200"
 						title="A title"
@@ -19,7 +19,7 @@ const Home = () => {
 						button="Click me"
 					/>
 				</div>
-				<div class="col-sm-3">
+				<div className="col-sm-3">
 					<Card
 						img="https://picsum.photos/200"
 						title="Another title"
@@ -27,7 +27,7 @@ const Home = () => {
 						button="Click me 2"
 					/>
 				</div>
-				<div class="col-sm-3">
+				<div className="col-sm-3">
 					<Card
 						img="https://picsum.photos/200"
 						title="Lalalal"
@@ -35,7 +35,7 @@ const Home = () => {
 						button="Im a button"
 					/>
 				</div>
-				<div class="col-sm-3">
+				<div className="col-sm-3">
 					<Card
 						img="https://picsum.photos/200"
 						title="Card title"
@@ -44,6 +44,7 @@ const Home = () => {
 					/>
 				</div>
 			</div>
+			<footer className="footer mt-auto py-3">Copywrite 2022</footer>
 		</div>
 	);
 };
