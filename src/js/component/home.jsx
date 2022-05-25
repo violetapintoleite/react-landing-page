@@ -11,12 +11,11 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Jumbotron />
-			<div display="inline">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-			</div>
+
+			<Card />
+			<Card />
+			<Card />
+			<Card />
 		</div>
 	);
 };
