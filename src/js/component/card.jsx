@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Card = (props) => {
 	return (
 		<div>
-			<div className="card" Style="width: 18rem;">
+			<div className="card">
 				<img
 					className="card-img-top"
 					src={props.img}

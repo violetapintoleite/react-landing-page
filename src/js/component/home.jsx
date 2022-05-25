@@ -11,7 +11,7 @@ const Home = () => {
 			<Navbar />
 			<Jumbotron />
 			<div className="row">
-				<div className="col-sm-3">
+				<div className="col-md-3 m-4">
 					<Card
 						img="https://picsum.photos/200"
 						title="A title"
@@ -19,7 +19,7 @@ const Home = () => {
 						button="Click me"
 					/>
 				</div>
-				<div className="col-sm-3">
+				<div className="col-md-3 m-4">
 					<Card
 						img="https://picsum.photos/200"
 						title="Another title"
@@ -27,7 +27,7 @@ const Home = () => {
 						button="Click me 2"
 					/>
 				</div>
-				<div className="col-sm-3">
+				<div className="col-md-3 m-4">
 					<Card
 						img="https://picsum.photos/200"
 						title="Lalalal"
@@ -35,7 +35,7 @@ const Home = () => {
 						button="Im a button"
 					/>
 				</div>
-				<div className="col-sm-3">
+				<div className="col-md-3 m-4">
 					<Card
 						img="https://picsum.photos/200"
 						title="Card title"
