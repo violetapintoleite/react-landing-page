@@ -1,27 +1,32 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const Card = () => {
+const Card = (props) => {
 	return (
 		<div>
 			<div className="card" Style="width: 18rem;">
 				<img
 					className="card-img-top"
-					src=".../100px180/"
+					src={props.img}
 					alt="Card image cap"
 				/>
 				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
-					<p className="card-text">
-						Some quick example text to build on the card title and
-						make up the bulk of the card's content.
-					</p>
+					<h5 className="card-title">{props.title}</h5>
+					<p className="card-text">{props.text}</p>
 					<a href="#" className="btn btn-primary">
-						Go somewhere
+						{props.button}
 					</a>
 				</div>
 			</div>
 		</div>
 	);
+};
+
+Card.PropTypes = {
+	img: PropTypes.string,
+	title: PropTypes.string,
+	text: PropTypes.string,
+	button: PropTypes.string,
 };
 
 export default Card;
